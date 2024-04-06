@@ -1,3 +1,11 @@
+body{
+    background-image: url('simple.jpg');
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+    
+
 #heading{
     position: relative;
     bottom: -60px;
@@ -84,30 +92,30 @@ color: aliceblue;
     background-color: rgb(55, 41, 129);
 
 }
-@media screen and (max-width:700px) {
-    .form:hover{
-        box-shadow: 6px, 8px, 12px, rgba(250, 248, 248);
-        transform:scale(1.05);
-        border:  100px;
-        background-color: rgba(255, 255, 255, 0.801);
-        background: transparent;
-        justify-content: center;
-    }
+.body{
+    background-position: center;
+    background-image: no-repeat;
+}
+.attribution{font-size: 11px; text-align: center; position: relative; top: 20px;}
+.attribution a{color: hsl(228, 45%, 44%);}
+@media screen and (max-width:400px) {
     #heading{
         position: relative;
+        font-size: 300px;
         bottom: -60px;
         -ms-zoom-animation: none;
-        right: 40px;
+        left: 20px;
         text-align: center;
         margin: 2em;
         color: white;
         font-size: 2.2em;
         background-position: center;
+        background-size: cover;
     }
     .field{
         position: relative;
         -ms-zoom-animation: none;
-        left: 500px;
+        left: 70px;
         width: 200px;
         bottom: -50px;
         margin:20px 0 0 20px;
@@ -125,13 +133,14 @@ color: aliceblue;
     }
     .button1{
         position: relative;
-        -ms-zoom-animation: none;
-        left: 420px;
-        bottom: -50px;
+        display : flex; 
+        right  :-50px; 
+        left: 0px; 
+        bottom : -70px;
         margin: 20px, 0 0 20px;
         padding: 15px;
         border-radius:5px;
-        width: 200px;
+        width: 190px;
         text-align: center;
         justify-content: center; 
         outline: 25px;
@@ -142,13 +151,16 @@ color: aliceblue;
     }
     .button2{
         position: relative;
-        -ms-zoom-animation: none;
-        left: 420px;
-        bottom:-50px;
+        left: 180px;
+        bottom :-70px;
+        height:50px;  
+        position: relative;
+        display: flex;
+        top :-1px;
         margin:20px 0 0 20px;
         padding: 15px;
-    border-radius: 5px;
-    width: 200px;
+       border-radius: 5px;
+    width: 180px;
     text-align: center;
     justify-content: center;
     transition: .5s ease-in-out;
@@ -157,9 +169,9 @@ color: aliceblue;
     }
     .button3{
         position: relative;
-        -ms-zoom-animation: none;
-        left: 530px;
-        bottom: -50px;
+        left: 90px;
+        top :-1px;
+        bottom :-10px;
         margin: 5px;
         padding: 15px;
         width: 200px;
@@ -168,5 +180,24 @@ color: aliceblue;
         transition: .4s ease-in-out;
         background-color: #252525;
         color: white;
-    }
+        
+        
+}
+}
+.button1:hover{
+    background-color:gold ;
+}
+.button2:hover{
+    background-color: rgb(78, 95, 78);
+}
+.button3:hover{
+    background-color: rgb(55, 41, 129);
+    transform :4s;
+
+}
+body{
+    background-image: url('simple.jpg');
+    height : 86vh;
+    background-position-x: center;
+    background-size: cover;
 }
