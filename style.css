@@ -104,7 +104,7 @@ color: aliceblue;
         font-size: 300px;
         bottom: -60px;
         -ms-zoom-animation: none;
-        left: 20px;
+        left: 1px;
         text-align: center;
         margin: 2em;
         color: white;
@@ -115,7 +115,7 @@ color: aliceblue;
     .field{
         position: relative;
         -ms-zoom-animation: none;
-        left: 70px;
+        left: 40px;
         width: 200px;
         bottom: -50px;
         margin:20px 0 0 20px;
@@ -200,4 +200,5 @@ body{
     height : 86vh;
     background-position-x: center;
     background-size: cover;
+    background-position-y: center;
 }
