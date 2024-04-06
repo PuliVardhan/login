@@ -6,8 +6,14 @@
     background: transparent;
     justify-content: center;
 }
+.body{
+    position: relative;
+    width: 200px;
+}
 #heading{
     position: relative;
+    bottom: -60px;
+    -ms-zoom-animation: none;
     right: 40px;
     text-align: center;
     margin: 2em;
@@ -17,8 +23,10 @@
 }
 .field{
     position: relative;
+    -ms-zoom-animation: none;
     left: 500px;
     width: 200px;
+    bottom: -50px;
     margin:20px 0 0 20px;
      display: flex;
     align-items: center;
@@ -34,7 +42,9 @@
 }
 .button1{
     position: relative;
+    -ms-zoom-animation: none;
     left: 420px;
+    bottom: -50px;
     margin: 20px, 0 0 20px;
     padding: 15px;
     border-radius:5px;
@@ -49,7 +59,9 @@
 }
 .button2{
     position: relative;
+    -ms-zoom-animation: none;
     left: 420px;
+    bottom:-50px;
     margin:20px 0 0 20px;
     padding: 15px;
 border-radius: 5px;
@@ -62,7 +74,9 @@ color: aliceblue;
 }
 .button3{
     position: relative;
+    -ms-zoom-animation: none;
     left: 530px;
+    bottom: -50px;
     margin: 5px;
     padding: 15px;
     width: 200px;
@@ -71,4 +85,18 @@ color: aliceblue;
     transition: .4s ease-in-out;
     background-color: #252525;
     color: white;
+}
+.button1:hover{
+    background-color:gold ;
+}
+.button2:hover{
+    background-color: rgb(78, 95, 78);
+}
+.button3:hover{
+    background-color: rgb(55, 41, 129);
+
+}
+@media screen and (max-width:700px) {
+
+    
 }
